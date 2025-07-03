@@ -1,0 +1,243 @@
+/* WINE DDW */
+.wine-ddw{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.9);
+	z-index: 1002;
+
+	display: none;
+	opacity: 0;
+
+	-webkit-box-pack: center;
+
+	    -ms-flex-pack: center;
+
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.wine-ddw-sub{
+	/*default*/
+	position: static;
+}
+.wine-ddw-bottle-img{
+	height: 50vh;
+	max-height: 400px;
+	width: auto;
+	margin: 10px 50px 10px;
+}
+.wine-ddw-title{
+	text-align: left;
+	color: white;
+	padding: 10px;
+}
+.wine-ddw-description-cont{
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.wine-ddw-description{
+	width: 100%;
+	margin-left: 10px;
+	color: white;
+}
+.wine-ddw-icon{
+	width: 15px;
+	margin-top: 5px;
+	height: 20px;
+}
+.exit-btn{
+	position: fixed;
+	top: 10px;
+	right: 30px;
+	width: 50px;
+	height: 100px;
+	cursor: pointer;
+	z-index: 999999;
+}
+
+/* flags */
+.flag-cont-wrapper{
+	background-image: url(images/sectionPics/iagoPerson.jpg);
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	position: relative;
+}
+.flag-cont-wrapper::before{
+	    content:"";
+	    display: block;
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    background-color: rgba(0, 0, 0, .5);
+}
+.flag-cont{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+/* home */
+#home{
+	height: 100vh;
+	background-image: url(images/sectionPics/iagoWorking.jpg);
+	background-position: center;
+	background-size: cover;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+
+	position: relative;
+}
+#home::before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+}
+.home--logo{
+	position: absolute;
+	width: 200px;
+
+	opacity: 0;
+}
+.home--scroll{
+	width: 35px;
+
+	position: absolute;
+	bottom: 10%;
+	-webkit-animation: scroll 3s infinite;
+	        animation: scroll 3s infinite;
+}
+
+/*******
+NAVIGATOR
+*******/
+.l-nav,.nav-trigger{
+	position: fixed;
+}
+.nav-trigger{
+	width: 30px;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+	padding: 10px;
+	background-color: black;
+
+	z-index: 1001;
+}
+.l-nav{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: none;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	z-index: 1000;
+}
+.nav-style{
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+	overflow-y: scroll;
+}
+.l-nav ul{
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+.l-nav li{
+	margin: 5vh 0;
+	border-bottom: 1px solid white;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.l-nav li:hover{
+	opacity: 0.5;
+}
+/*Contact*/
+
+/*******
+ANIMATION
+*******/
+@-webkit-keyframes scroll{
+	0%{
+		-webkit-transform:translateY(0);
+		        transform:translateY(0);
+		opacity: 0;
+	}
+	50%{
+		-webkit-transform: translateY(20px);
+		        transform: translateY(20px);
+		opacity: 1
+	}
+	100%{
+		-webkit-transform:translateY(0);
+		        transform:translateY(0);
+		opacity: 0;
+	}
+}
+@keyframes scroll{
+	0%{
+		-webkit-transform:translateY(0);
+		        transform:translateY(0);
+		opacity: 0;
+	}
+	50%{
+		-webkit-transform: translateY(20px);
+		        transform: translateY(20px);
+		opacity: 1
+	}
+	100%{
+		-webkit-transform:translateY(0);
+		        transform:translateY(0);
+		opacity: 0;
+	}
+}
+/*******
+MEDIA QUERIES
+*******/
+@media(min-width: 1024px){
+	.home--logo{
+		width: 250px;
+	}
+}
+@media(max-width: 768px){
+	.wine-ddw{
+		overflow-y: scroll;
+	}
+}

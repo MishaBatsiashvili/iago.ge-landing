@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+@font-face{
+	font-family: quiet;
+	src: url(fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face{
+	font-family: beba;
+	src: url(fonts/BebasNeue.otf);
+}
+
+@font-face{
+	font-family: coyote;
+	src: url(fonts/coyote.otf);
+}
+
+@font-face{
+	font-family: geo;
+	src: url(fonts/bpg_glaho_sylfaen.ttf);
+}
+
+h1,h2{
+	font-family: coyote;
+}
+h2{
+	font-size: 20px;
+}
+li{
+	font-family: coyote;
+	font-size: 20px;
+}
+p,a{
+	font-family: sans-serif;
+}
+
+h1:first-letter,p:first-letter,li:first-letter{
+	text-transform: uppercase;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	height: 100%;
+}

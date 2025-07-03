@@ -1,0 +1,123 @@
+.wine_cont {
+  min-height: 50vh;
+  width: 100%;
+  padding: 20px;
+  background-image: url(images/winesection/background.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* .wine_title_cont {
+  display: block;
+  text-align: center;
+}
+
+.wine_title_cont::after {
+  content: "";
+  display: block;
+  width: 150px;
+  margin: auto;
+} */
+
+/* .wine_title_wrapper>h1 {
+  font-size: 50px;
+  font-family: coyote;
+  letter-spacing: 5px;
+  margin: 40px 0 50px;
+  color: #fff;
+} */
+
+/* .wine_title_wrapper>p {
+  font-family: beba;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  color: #d3c15f;
+} */
+
+/*Bottle image styles*/
+
+.wine_img_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wine_img_cont > img {
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  height: 30vw;
+  cursor: pointer;
+}
+.wine_img_cont>img:hover {
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+  opacity: 0.5;
+}
+/* Wine Description Cont
+.wine-description-cont{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255,255,255,0.9);
+}
+.text-wrapper{
+  width: 50%;
+}
+.wine-description-cont p{
+  width: 100%;
+}
+.wine-description-img{
+  width: 300px;
+  height: auto;
+}
+ */
+/* Media QUERIES */
+@media(max-width: 1024px) {
+  .wine_img_cont>img{
+    height: 40vw;
+  }
+}
+@media(max-width: 700px) {
+  .wine_cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .wine_img_cont{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wine_img_cont>img{
+    width: 30vw;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
