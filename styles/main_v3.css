@@ -68,7 +68,7 @@
 
 /* flags */
 .flag-cont-wrapper{
-	background-image: url(images/sectionPics/iagoPerson.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568172/iagoPerson_ntlkuo.jpg);
 	background-position: bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -97,7 +97,7 @@
 /* home */
 #home{
 	height: 100vh;
-	background-image: url(images/sectionPics/iagoWorking.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568169/iagoWorking_h1g7ld.jpg);
 	background-position: center;
 	background-size: cover;
 

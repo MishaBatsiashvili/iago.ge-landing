@@ -1,37 +1,37 @@
 
 /*winery*/
 #wineTitle{
-	background-image: url(images/sectionPics/wineVessels.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568170/wineVessels_g38bgs.jpg);
 }
 .wine .img{
-	background-image: url(images/galleryPics/slide4.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568156/slide4_mkr2ec.jpg);
 }
 /* vineyard */
 #vineyardTitle{
-	background-image: url(images/sectionPics/Vineyards.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568173/Vineyards_hfdpzt.jpg);
 }
 
 /* article */
 #articleTitle{
-	background-image: url(images/galleryPics/slide6.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568156/slide6_jxirmp.jpg);
 }
 /*tour*/
 #tourTitle{
-	background-image: url(images/label/label4.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568180/label4_wcb6xh.jpg);
 }
 .tour .img{
-	background-image: url(images/label/label2.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568175/label2_g5igns.jpg);
 }
 /* sold in */
 #soldTitle{
-	background-image: url(images/label/label3.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568176/label3_omfudu.jpg);
 }
 /*contact*/
 #contactTitle{
-	background-image: url(images/sectionPics/destination.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568168/destination_yxtita.jpg);
 }
 #winebottle{
-	background-image: url(images/label/label2.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568175/label2_g5igns.jpg);
 }
 
 #map{

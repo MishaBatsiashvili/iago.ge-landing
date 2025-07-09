@@ -57,7 +57,7 @@ $(function () {
             trigger.velocity({opacity: 0}, {
                 duration: 150,
                 complete: function () {
-                    trigger.attr('src', './styles/images/icons/menu-close.svg');
+                    trigger.attr('src', 'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568181/menu-close_vqyyyk.svg');
                 }
             });
 
@@ -66,7 +66,7 @@ $(function () {
             trigger.velocity({opacity: 0}, {
                 duration: 150,
                 complete: function () {
-                    trigger.attr('src', './styles/images/icons/menu-open.svg');
+                    trigger.attr('src', 'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568175/menu-open_xmxy18.svg');
                 }
             });
             trigger.velocity({opacity: 1}, {duration: 150});

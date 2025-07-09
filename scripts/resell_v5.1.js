@@ -15,6 +15,21 @@ $(function(){
 			'netherlands',
 			'ukraine'
 		],
+		image_urls: [
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568162/united-states_eut0qq.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568163/new-zealand_nvaicr.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568159/england_msvipu.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568159/australia_mx0nca.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568163/denmark_b4deix.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568165/france_ixwcl5.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568164/italy_a9xdzj.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568163/japan_hfygog.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568165/spain_txyfsc.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568165/germany_ihnlci.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568157/switzerland_ysbbyn.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568163/netherlands_c9wfz7.svg',
+			'https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568160/ukraine_yz1itr.svg'
+		],
 		links: [
 			'https://www.georgianwinehouse.com/',
 			'http://www.planetwine.co.nz/wines/georgia/?fbclid=IwAR2lbz9vVPByelrn2_LVkFGBCtBmtRJxjkNP9FApNPcLsxdEe9a2YbZqjy4',
@@ -34,7 +49,7 @@ $(function(){
 	}
 	function flagImg(flags, flags_container){
 		for(var i = 0; i<flags.length; i += 1){
-			flags.eq(i).attr('src','./styles/images/resellers/' + resseller.country[i]+'.svg');
+			flags.eq(i).attr('src', resseller.image_urls[i]);
 			flags_container.eq(i).attr('href',resseller.links[i]);
 			
 			flags[i].style.objectFit = 'contain';

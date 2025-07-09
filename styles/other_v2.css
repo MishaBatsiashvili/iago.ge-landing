@@ -1,6 +1,6 @@
 /*RESELL-SLIDER STYLES*/
 .resell-slider{
-	background-image: url(images/resellers/background.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568162/background_gmfciq.jpg);
 }
 .sub-title{
 	width: 80%;
@@ -42,7 +42,7 @@
 
 /*ARTICLES STYLES*/
 .article-cont{
-	background-image: url(images/sectionPics/iagoPerson.jpg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568172/iagoPerson_ntlkuo.jpg);
 	background-position: bottom;
 	background-size: cover;
 	background-repeat: no-repeat;

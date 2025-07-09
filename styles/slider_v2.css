@@ -7,14 +7,14 @@
 	position: relative;
 }
 .swiper-button-prev {
-	background-image: url(images/icons/prev.svg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568180/prev_jxkhoq.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30px;
 	height: 30px;
 }
 .swiper-button-next {
-	background-image: url(images/icons/next.svg);
+	background-image: url(https://res.cloudinary.com/dc4ci2dzs/image/upload/v1751568182/next_cocewl.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 30px;
